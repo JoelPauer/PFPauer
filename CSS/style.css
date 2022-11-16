@@ -30,7 +30,7 @@
     --navlink: #F58A07;
 }
 .navbar-nav li a:hover{
-    background: var(--navlink);
+    color: var(--navlink);
 }
 /* ================================= Main ================================= */
 .carousel-inner{
@@ -64,7 +64,6 @@ body{
 }
 .redes-container{
     display: flex;
-    height: 20vh;
     align-items: center;
     justify-content: center;
     top: 0;
@@ -122,12 +121,12 @@ ul.redes-ul{
 .main {
     margin-top: 50px;
 }
-.table {
-    margin-left: 500px;
+.table{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 100px;
     color: white;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 100vh;
     border-collapse: collapse;
 }
 .th {
@@ -152,71 +151,42 @@ ul.redes-ul{
         align-content: center;
         color: white;
     }
-    .map{
-        margin-left: 20%;
-    }
 /* ================================= Main Donde estamos ================================= */
+.map{
+    margin-left: 20%;
+}
+/* ================================= Main LogIn ================================= */
 .form-floating{ 
     width: 50vh;
-    
+    margin-left: 25%;
+}
+.registro-container{
+    color: white;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20%;
+}
+.link-registro{
+    text-decoration: none;
+    color: #F58A07;
+}
+:root {
+    ---aqui: #F58A07
+}
+.link-registro:hover{
+    color: var(---aqui);
 }
 
-
-/* ================================= @Media inicio ================================= */
-@media  screen and (max-width:500px){
-    .carousel-inner{   
-        width: 40vh;
-        height: auto;
-    }
-    .carousel-item{
-        width: 90%;
-        height: auto; 
-    }
-    .w-100{
-        width: 90%;
-        margin-top: 0;
-        margin-right: 30px;
-        margin-left: 0;
-    }
-    .h2-actividades{
-        margin-top: 40px;
-    }
-    .navbar-brand{
-        color:#F58A07;
-        margin-left: 10px;
-    }
-    .carousel-control-next-icon{
-        margin-bottom: 0px;
-    }
-    .carousel-control-prev-icon{
-        margin-bottom: 0px;
-    }
-    .lorem-container{
-        flex-wrap: wrap;
-        color: white;
-        margin-top: 20px;
-        padding: 40px;
-    }
-    .redes-container{
-        max-height: 70px;
-        margin-top: 100px;
-    }
-    .footer{
-        max-height: 100px;
-    }
-    .copyright-container{
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 10px;
-        margin-top: 100px!important;
-        
-    }
-    .navbar-toggler-icon{
-        color:#F58A07 ;
+/* ================================= @Media Desktop ================================= */
+@media  screen and (min-width:500px) {
+    .overflow-scroll{
+        overflow:hidden!important;
     }
 }
-/* ================================= @Media Horarios ================================= */
-@media  screen and (max-width:500px){ 
+/* ================================= @Media Movile================================= */
+@media  screen and (max-width:500px){     
 .main {
     margin-top: 50px;
 }
@@ -240,5 +210,73 @@ ul.redes-ul{
     color: #F58A07;;
     font-size: larger;
     width: 50px!important
+}
+.carousel-inner{   
+    width: 100%;
+    height: auto;
+    margin-left: unset!important;
+    }
+.carousel-item{
+    height: auto; 
+    }
+.w-100{
+    margin-top: 0;
+    margin-right: 30px;
+    margin-left: 0;
+    }
+.h2-actividades{
+    margin-top: 40px;
+    }
+.navbar-brand{
+    color:#F58A07;
+    margin-left: 10px;
+    }
+.navbar-nav{
+    margin-left: 50; 
+    }
+.carousel-control-next-icon{
+    margin-bottom: 0px;
+    }
+.carousel-control-prev-icon{
+    margin-bottom: 0px;
+    }
+.lorem-container{
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 20px;
+    padding: 40px;
+    }
+.redes-container{
+    max-height: 70px;
+    }
+.footer{
+    max-height: 100px;
+    }
+.copyright-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;        
+    }
+.navbar-toggler-icon{
+    color:#F58A07 ;
+    }
+
+    .table{
+        padding-top: 5px;
+        align-content: flex-start;
+        justify-content: flex-start;
+    }
+.form-floating{
+    width: 80%!important;
+    margin-left: 40;
+}
+.map{
+    height: 50%;
+    width: 100%;
+    margin-left: 0;
+    padding: 10;
+}
+.registro-container{
+    margin-bottom: 60%;
 }
 }
