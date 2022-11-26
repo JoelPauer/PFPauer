@@ -1,38 +1,44 @@
 * {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+  font-family: sans-serif; }
 
-/* ================================= Header =================================*/
-.header {
-  background-color: 011C27;
-  border-bottom: 1px solid white; }
-
-.navbar-expand-lg .navbar-collapse {
-  justify-content: flex-end;
-  margin-right: 50px; }
-
-.navbar-nav {
-  text-align: center; }
-
-.navbar-brand {
-  color: #F58A07;
-  margin-left: 100px; }
-
-.nav-link {
+/* ================================= Main Donde estamos ================================= */
+.direction {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   color: white; }
 
-.navbar-toggler {
-  color: 011C27; }
+.map {
+  margin-left: 20%; }
 
-:root {
-  --navlink: #F58A07; }
+/* ================================= Main Horarios ================================= */
+.main {
+  margin-top: 50px; }
 
-.navbar-nav li a:hover {
-  color: var(--navlink); }
+.table {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 100px;
+  color: white;
+  border-collapse: collapse; }
 
-/* ================================= Main ================================= */
+.th {
+  border: 2px solid white;
+  flex-direction: column;
+  width: 200px; }
+
+.td {
+  flex-direction: column;
+  border: 2px solid white;
+  width: 100px; }
+
+.title-table {
+  color: #F58A07;
+  font-size: larger;
+  width: 100px; }
+
+/* ================================= Main Inicio ================================= */
 .carousel-inner {
   width: 70%;
   margin-left: 15%; }
@@ -51,6 +57,30 @@ body {
   color: white;
   margin-top: 20px;
   padding: 100px; }
+
+/* ================================= Main LogIn ================================= */
+.form-floating {
+  width: 50vh;
+  margin-left: 25%; }
+
+.registro-container {
+  color: white;
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20%; }
+
+.link-registro {
+  text-decoration: none;
+  color: #F58A07; }
+
+:root {
+  ---aqui: #F58A07
+; }
+
+.link-registro:hover {
+  color: var(---aqui); }
 
 /* ================================= Footer ================================= */
 .footer {
@@ -116,67 +146,33 @@ ul.redes-ul {
   top: 0;
   justify-content: center; }
 
-/* ================================= Main Horarios ================================= */
-.main {
-  margin-top: 50px; }
+/* ================================= Header =================================*/
+.header {
+  background-color: 011C27;
+  border-bottom: 1px solid white; }
 
-.table {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  padding-top: 100px;
-  color: white;
-  border-collapse: collapse; }
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+  margin-right: 50px; }
 
-.th {
-  border: 2px solid white;
-  flex-direction: column;
-  width: 200px; }
+.navbar-nav {
+  text-align: center; }
 
-.td {
-  flex-direction: column;
-  border: 2px solid white;
-  width: 100px; }
-
-.title-table {
+.navbar-brand {
   color: #F58A07;
-  font-size: larger;
-  width: 100px; }
+  margin-left: 100px; }
 
-/* ================================= Main Donde estamos ================================= */
-.direction {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+.nav-link {
   color: white; }
 
-/* ================================= Main Donde estamos ================================= */
-.map {
-  margin-left: 20%; }
-
-/* ================================= Main LogIn ================================= */
-.form-floating {
-  width: 50vh;
-  margin-left: 25%; }
-
-.registro-container {
-  color: white;
-  padding-top: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20%; }
-
-.link-registro {
-  text-decoration: none;
-  color: #F58A07; }
+.navbar-toggler {
+  color: 011C27; }
 
 :root {
-  ---aqui: #F58A07
-; }
+  --navlink: #F58A07; }
 
-.link-registro:hover {
-  color: var(---aqui); }
+.navbar-nav li a:hover {
+  color: var(--navlink); }
 
 /* ========== @Media Desktop Horarios ========== */
 @media screen and (min-width: 500px) {

@@ -1,0 +1,23 @@
+/* ================================= Main LogIn ================================= */
+.form-floating{ 
+    width: 50vh;
+    margin-left: 25%;
+}
+.registro-container{
+    color: white;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20%;
+}
+.link-registro{
+    text-decoration: none;
+    color: #F58A07;
+}
+:root {
+    ---aqui: #F58A07
+}
+.link-registro:hover{
+    color: var(---aqui);
+}
