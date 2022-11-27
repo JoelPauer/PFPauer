@@ -119,6 +119,98 @@ body {
 .link-registro:hover {
   color: var(---aqui); }
 
+/* ========== @Media Desktop Horarios ========== */
+@media screen and (min-width: 500px) {
+  .overflow-scroll {
+    overflow: hidden !important; } }
+
+/* ========== @Media Movile Horarios =========== */
+@media screen and (max-width: 500px) {
+  .main {
+    margin-top: 50px; }
+  .table {
+    margin-left: 0;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 30vh;
+    border-collapse: collapse; }
+  .th {
+    border: 2px solid white;
+    width: 100px !important; }
+  .td {
+    border: 2px solid white;
+    width: 50px !important; }
+  .title-table {
+    color: #F58A07;
+    font-size: larger;
+    width: 50px !important; } }
+
+/* =========== @Media Movile Inicio =========== */
+@media screen and (max-width: 500px) {
+  .carousel-inner {
+    width: 100%;
+    height: auto;
+    margin-left: unset !important; }
+    .carousel-inner .carousel-item {
+      height: auto; }
+  .carousel-control-next-icon {
+    margin-bottom: 0px; }
+  .carousel-control-prev-icon {
+    margin-bottom: 0px; }
+  .h2-actividades {
+    margin-top: 40px; }
+  .lorem-container {
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 20px;
+    padding: 40px; } }
+
+/* =============== @Media Movile Header ================ */
+@media screen and (max-width: 500px) {
+  .navbar-brand {
+    color: #F58A07;
+    margin-left: 10px; }
+    .navbar-brand .navbar-toggler-icon {
+      color: #F58A07; }
+    .navbar-brand .navbar-nav {
+      margin-left: 50; } }
+
+/* =============== @Media Movile Footer =============== */
+@media screen and (max-width: 500px) {
+  .footer {
+    max-height: 100px;
+    margin-top: 1300px !important; }
+    .footer .redes-container {
+      max-height: 70px; }
+  .copyright-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px; } }
+
+/* ============== @Media Movile Horarios ============= */
+@media screen and (max-width: 500px) {
+  .table {
+    padding-top: 5px;
+    align-content: flex-start;
+    justify-content: flex-start; } }
+
+/* ================ @Media Movile Login =============== */
+@media screen and (max-width: 500px) {
+  .form-floating {
+    width: 80% !important;
+    margin-left: 40; }
+  .registro-container {
+    margin-bottom: 60%; } }
+
+/* =========== @Media Movile Donde Estamos =========== */
+@media screen and (max-width: 500px) {
+  .map {
+    height: 50%;
+    width: 100%;
+    margin-left: 0;
+    padding: 10; } }
+
 /* ================================= Footer ================================= */
 .footer {
   margin-top: 150px;
@@ -211,94 +303,3 @@ ul.redes-ul {
 
 .navbar-nav li a:hover {
   color: var(--navlink); }
-
-/* ========== @Media Desktop Horarios ========== */
-@media screen and (min-width: 500px) {
-  .overflow-scroll {
-    overflow: hidden !important; } }
-
-/* ========== @Media Movile Horarios =========== */
-@media screen and (max-width: 500px) {
-  .main {
-    margin-top: 50px; }
-  .table {
-    margin-left: 0;
-    color: white;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    max-width: 30vh;
-    border-collapse: collapse; }
-  .th {
-    border: 2px solid white;
-    width: 100px !important; }
-  .td {
-    border: 2px solid white;
-    width: 50px !important; }
-  .title-table {
-    color: #F58A07;
-    font-size: larger;
-    width: 50px !important; } }
-
-/* =========== @Media Movile Inicio =========== */
-@media screen and (max-width: 500px) {
-  .carousel-inner {
-    width: 100%;
-    height: auto;
-    margin-left: unset !important; }
-    .carousel-inner .carousel-item {
-      height: auto; }
-  .carousel-control-next-icon {
-    margin-bottom: 0px; }
-  .carousel-control-prev-icon {
-    margin-bottom: 0px; }
-  .h2-actividades {
-    margin-top: 40px; }
-  .lorem-container {
-    flex-wrap: wrap;
-    color: white;
-    margin-top: 20px;
-    padding: 40px; } }
-
-/* =============== @Media Movile Header ================ */
-@media screen and (max-width: 500px) {
-  .navbar-brand {
-    color: #F58A07;
-    margin-left: 10px; }
-    .navbar-brand .navbar-toggler-icon {
-      color: #F58A07; }
-    .navbar-brand .navbar-nav {
-      margin-left: 50; } }
-
-/* =============== @Media Movile Footer =============== */
-@media screen and (max-width: 500px) {
-  .footer {
-    max-height: 100px; }
-    .footer .redes-container {
-      max-height: 70px; }
-  .copyright-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 10px; } }
-
-/* ============== @Media Movile Horarios ============= */
-@media screen and (max-width: 500px) {
-  .table {
-    padding-top: 5px;
-    align-content: flex-start;
-    justify-content: flex-start; } }
-
-/* ================ @Media Movile Login =============== */
-@media screen and (max-width: 500px) {
-  .form-floating {
-    width: 80% !important;
-    margin-left: 40; }
-  .registro-container {
-    margin-bottom: 60%; } }
-
-/* =========== @Media Movile Donde Estamos =========== */
-@media screen and (max-width: 500px) {
-  .map {
-    height: 50%;
-    width: 100%;
-    margin-left: 0;
-    padding: 10; } }
