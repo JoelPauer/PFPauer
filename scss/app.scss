@@ -1,9 +1,13 @@
 @import 'base/typo';
+@import 'utilities/mixins';
+
 @import 'views/dondeestamos';
 @import 'views/horarios';
 @import 'views/inicio';
 @import 'views/login';
 @import 'views/registro';
+
 @import 'layout/footer';
 @import 'layout/header';
 @import 'layout/mediaquery';
+
