@@ -112,3 +112,9 @@
         padding: 10;
     }
 }    
+/* =========== @Media Movile login =========== */
+@media  screen and (max-width:425px) {
+    .form-title{
+        font-size: 1.8rem;
+    }
+}
