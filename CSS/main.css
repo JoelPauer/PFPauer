@@ -1,120 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 * {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+  font-family: sans-serif; }
 
-/* ================================= Header =================================*/
-.header {
-  background-color: 011C27;
-  border-bottom: 1px solid white; }
-
-.navbar-expand-lg .navbar-collapse {
-  justify-content: flex-end;
-  margin-right: 50px; }
-
-.navbar-nav {
-  text-align: center; }
-
-.navbar-brand {
-  color: #F58A07;
-  margin-left: 100px; }
-
-.nav-link {
+/* ================================= Main Donde estamos ================================= */
+.direction {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   color: white; }
 
-.navbar-toggler {
-  color: 011C27; }
-
-:root {
-  --navlink: #F58A07; }
-
-.navbar-nav li a:hover {
-  color: var(--navlink); }
-
-/* ================================= Main ================================= */
-.carousel-inner {
-  width: 70%;
-  margin-left: 15%; }
-
-body {
-  background-color: 011C27; }
-
-.h2-actividades {
-  display: flex;
-  color: #F58A07;
-  padding: 10px;
-  justify-content: center; }
-
-.lorem-container {
-  flex-wrap: wrap;
-  color: white;
-  margin-top: 20px;
-  padding: 100px; }
-
-/* ================================= Footer ================================= */
-.footer {
-  margin-top: 40px;
-  background-color: 011C27; }
-
-:root {
-  --facebook: #3b5999;
-  --instagram: #e4405f;
-  --whatsapp: #00AF54; }
-
-.redes-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 0; }
-
-ul.redes-ul {
-  padding-left: 0; }
-
-.redes-container ul li {
-  display: inline-block;
-  margin: 0 5px;
-  width: 50px;
-  height: 50px;
-  text-align: center; }
-
-.redes-container ul li a {
-  display: block;
-  padding: 10px 10px;
-  background: #333;
-  color: white;
-  line-height: 100px;
-  font-size: 18px;
-  box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.2);
-  transition: .2s; }
-
-.redes-container ul:hover a {
-  filter: blur(2px); }
-
-.redes-container ul li a:hover {
-  transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
-  filter: none; }
-
-.redes-container ul li .facebook:hover {
-  background: var(--facebook); }
-
-.redes-container ul li .instagram:hover {
-  background: var(--instagram); }
-
-.redes-container ul li .whatsapp:hover {
-  background: var(--whatsapp); }
-
-.seguinos {
-  display: flex;
-  color: white;
-  justify-content: center; }
-
-.copyright-container {
-  display: flex;
-  color: white;
-  top: 0;
-  justify-content: center; }
+.map {
+  margin-left: 20%; }
 
 /* ================================= Main Horarios ================================= */
 .main {
@@ -143,40 +39,152 @@ ul.redes-ul {
   font-size: larger;
   width: 100px; }
 
-/* ================================= Main Donde estamos ================================= */
-.direction {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  color: white; }
+/* ================================= Main Inicio ================================= */
+.carousel-inner {
+  width: 70%;
+  height: 600px;
+  margin-left: 15%; }
 
-/* ================================= Main Donde estamos ================================= */
-.map {
-  margin-left: 20%; }
+body {
+  background-color: #011C27; }
+
+.main {
+  top: 0; }
+
+.h2-actividades {
+  display: flex;
+  color: #F58A07;
+  padding: 10px;
+  justify-content: center; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto; }
+  .container .card {
+    width: 330px;
+    height: 510px;
+    border-radius: 8px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s; }
+
+.container .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+
+.container .card img {
+  width: 330px;
+  height: 220px; }
+
+.container .card h4 {
+  font-weight: 600; }
+
+.container .card p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300; }
+
+.container .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #3498db; }
 
 /* ================================= Main LogIn ================================= */
-.form-floating {
-  width: 50vh;
-  margin-left: 25%; }
+.main {
+  font-family: 'Roboto', sans-serif; }
 
-.registro-container {
-  color: white;
-  padding-top: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20%; }
+.body {
+  background-color: #011C27;
+  opacity: 1;
+  background-image: radial-gradient(circle at center center, #fcfcfe, #011C27), repeating-radial-gradient(circle at center center, #fcfcfe, #fcfcfe, 10px, transparent 20px, transparent 10px);
+  background-blend-mode: multiply; }
 
-.link-registro {
-  text-decoration: none;
-  color: #F58A07; }
+.form {
+  background-color: #fcfcfe;
+  margin: auto;
+  width: 90%;
+  max-width: 400px;
+  padding: 4.5em 3em;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px -5px rgb 0 0 0/30%;
+  text-align: center; }
 
-:root {
-  ---aqui: #F58A07
-; }
+.form-title {
+  font-size: 2rem;
+  margin-bottom: .5em; }
 
-.link-registro:hover {
-  color: var(---aqui); }
+.form-paragraph {
+  font-weight: 300; }
+
+.form-link {
+  font-weight: 3em;
+  color: #000; }
+
+.form-container {
+  margin-top: 3em;
+  display: grid;
+  gap: 2.5em; }
+
+.form-group {
+  position: relative;
+  --color: #5757577e; }
+
+.form-input {
+  width: 100%;
+  background: none;
+  color: #706c6c;
+  font-size: 1rem;
+  padding: .6em .3em;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--color);
+  font-family: 'Roboto', sans-serif; }
+
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
+  transform: translateY(-12px) scale(0.7);
+  transform-origin: left top;
+  color: #3866f2; }
+
+.form-label {
+  color: var(--color);
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  transform: translateY(10px);
+  transition: transform .5s, color .3s; }
+
+.form-submit {
+  background-color: #011C27;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: .8em 0;
+  border: none;
+  border-radius: .5em; }
+
+.form-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #011C27;
+  transform: left bottom;
+  transition: transform .4s; }
+
+.form-imput:focus ~ .form-line,
+.form-input:not(:placeholder-shown) ~ .form-line {
+  transform: scale(1); }
 
 /* ========== @Media Desktop Horarios ========== */
 @media screen and (min-width: 500px) {
@@ -238,7 +246,8 @@ ul.redes-ul {
 /* =============== @Media Movile Footer =============== */
 @media screen and (max-width: 500px) {
   .footer {
-    max-height: 100px; }
+    max-height: 100px;
+    margin-top: 1300px !important; }
     .footer .redes-container {
       max-height: 70px; }
   .copyright-container {
@@ -268,3 +277,101 @@ ul.redes-ul {
     width: 100%;
     margin-left: 0;
     padding: 10; } }
+
+/* =========== @Media Movile login =========== */
+@media screen and (max-width: 425px) {
+  .form-title {
+    font-size: 1.8rem; } }
+
+/* ================================= Footer ================================= */
+.footer {
+  margin-top: 150px;
+  background-color: 011C27; }
+
+:root {
+  --facebook: #3b5999;
+  --instagram: #e4405f;
+  --whatsapp: #00AF54; }
+
+.redes-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0; }
+
+ul.redes-ul {
+  padding-left: 0; }
+
+.redes-container ul li {
+  display: inline-block;
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+  text-align: center; }
+
+.redes-container ul li a {
+  display: block;
+  padding: 10px 10px;
+  background: #333;
+  color: white;
+  line-height: 100px;
+  font-size: 18px;
+  box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.2);
+  transition: .2s; }
+
+.redes-container ul:hover a {
+  filter: blur(2px); }
+
+.redes-container ul li a:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+  filter: none; }
+
+.redes-container ul li .facebook:hover {
+  background: var(--facebook); }
+
+.redes-container ul li .instagram:hover {
+  background: var(--instagram); }
+
+.redes-container ul li .whatsapp:hover {
+  background: var(--whatsapp); }
+
+.seguinos {
+  display: flex;
+  color: white;
+  justify-content: center; }
+
+.copyright-container {
+  display: flex;
+  color: white;
+  top: 0;
+  justify-content: center; }
+
+/* ================================= Header =================================*/
+.header {
+  background-color: 011C27;
+  border-bottom: 1px solid white; }
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+  margin-right: 50px; }
+
+.navbar-nav {
+  text-align: center; }
+
+.navbar-brand {
+  color: #F58A07;
+  margin-left: 100px;
+  font-family: 'Fahkwang', sans-serif; }
+
+.nav-link {
+  color: white; }
+
+.navbar-toggler {
+  color: 011C27; }
+
+:root {
+  --navlink: #F58A07; }
+
+.navbar-nav li a:hover {
+  color: var(--navlink); }

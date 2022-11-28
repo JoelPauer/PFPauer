@@ -1,0 +1,27 @@
+/* ================================= Main Horarios ================================= */
+.main {
+    margin-top: 50px;
+}
+.table{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 100px;
+    color: white;
+    border-collapse: collapse;
+}
+.th {
+    border: 2px solid white;
+    flex-direction: column;
+    width: 200px;
+}
+.td {
+    flex-direction: column;
+    border: 2px solid white;
+    width: 100px;
+}
+.title-table {
+    color: #F58A07;
+    font-size: larger;
+    width: 100px;
+}

@@ -1,0 +1,31 @@
+/* ================================= Header =================================*/
+.header{       
+    background-color: 011C27 ;
+    border-bottom: 1px solid white;
+}
+.navbar-expand-lg {
+    .navbar-collapse {
+    justify-content: flex-end;
+    margin-right: 50px;
+    }
+}    
+.navbar-nav{
+    text-align: center;
+}
+.navbar-brand{
+    color:#F58A07;
+    margin-left: 100px;
+    font-family: 'Fahkwang', sans-serif;
+}
+.nav-link{
+    color: white;
+}
+.navbar-toggler{
+    color: 011C27;
+}
+:root{
+    --navlink: #F58A07;
+}
+.navbar-nav li a:hover{
+    color: var(--navlink);
+}
