@@ -1,7 +1,7 @@
 /* ================================= Header =================================*/
 .header{       
-    background-color: 011C27 ;
-    border-bottom: 1px solid white;
+    background-color: #001524 ;
+    border-bottom: 1px solid #FFECD1;
 }
 .navbar-expand-lg {
     .navbar-collapse {
@@ -13,18 +13,18 @@
     text-align: center;
 }
 .navbar-brand{
-    color:#F58A07;
+    color:#FF7D00;
     margin-left: 100px;
     font-family: 'Fahkwang', sans-serif;
 }
 .nav-link{
-    color: white;
+    color: #FFECD1;
 }
 .navbar-toggler{
-    color: 011C27;
+    color: #001524;
 }
 :root{
-    --navlink: #F58A07;
+    --navlink: #FF7D00;
 }
 .navbar-nav li a:hover{
     color: var(--navlink);

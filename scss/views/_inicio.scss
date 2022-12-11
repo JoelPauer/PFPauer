@@ -1,18 +1,18 @@
 /* ================================= Main Inicio ================================= */
 .carousel-inner{
     width: 70%;
-    height: 600px;
+    height: 700px;
     margin-left: 15%;
 }
 body{
-    background-color: #011C27;
+    background-color: #001524;
 }
 .main{
     top: 0;
 }
 .h2-actividades{
     display: flex;
-    color: #F58A07;
+    color: #FF7D00;
     padding: 10px;
     justify-content: center;
 }
@@ -26,6 +26,12 @@ body{
     margin: auto;
     .card {
          @include card-inicio ;  
+         .title-card {
+            color: #FF7D00;
+         }
+         .p-card {
+            color: #FFECD1;
+         }
     }
 }
 .container .card:hover{

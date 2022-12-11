@@ -11,22 +11,22 @@
     }
     .table {
         margin-left: 0;
-        color: white;
+        color: #FFECD1;
         margin-top: 50px;
         margin-bottom: 50px;
         max-width: 30vh;
         border-collapse: collapse;
     }    
     .th {
-        border: 2px solid white;
+        border: 2px solid #FFECD1;
         width: 100px!important;
     }
     .td {
-        border: 2px solid white;
+        border: 2px solid #FFECD1;
         width: 50px!important;
     }
     .title-table {
-        color: #F58A07;;
+        color: #FF7D00;
         font-size: larger;
         width: 50px!important
     }    
@@ -35,6 +35,7 @@
 @media  screen and (max-width:500px){    
     .carousel-inner{   
         width: 100%;
+        height: 300px !important;
         height: auto;
         margin-left: unset!important;
         .carousel-item{
@@ -50,12 +51,6 @@
     .h2-actividades{
         margin-top: 40px;
     }
-    .lorem-container{
-        flex-wrap: wrap;
-        color: white;
-        margin-top: 20px;
-        padding: 40px;
-        }
 }
 /* =============== @Media Movile Header ================ */    
 @media  screen and (max-width:500px){
