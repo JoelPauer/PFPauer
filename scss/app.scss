@@ -5,8 +5,11 @@
 @import 'views/horarios';
 @import 'views/inicio';
 @import 'views/registro';
-@import 'views/_contacto&login';
+@import 'views/_contacto';
+@import 'views/_login';
 
-@import 'layout/mediaquery';
-@import 'layout/footer';
-@import 'layout/header';
+@import 'layout/_body';
+@import 'layout/_mediaquery';
+@import 'layout/_footer';
+@import 'layout/_header';
+@import'layout/_main';

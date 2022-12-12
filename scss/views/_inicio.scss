@@ -1,14 +1,8 @@
 /* ================================= Main Inicio ================================= */
 .carousel-inner{
     width: 70%;
-    height: 700px;
+    height: 650px;
     margin-left: 15%;
-}
-body{
-    background-color: #001524;
-}
-.main{
-    top: 0;
 }
 .h2-actividades{
     display: flex;
@@ -16,44 +10,56 @@ body{
     padding: 10px;
     justify-content: center;
 }
-.container{
+.card-container{
+    margin-top: 10%;
     width: 100%;
     max-width: 1200px;
-    height: 430px;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
     .card {
          @include card-inicio ;  
+         margin-top: 10%;
          .title-card {
+            margin-top: 20px;
             color: #FF7D00;
          }
          .p-card {
             color: #FFECD1;
          }
+        .a-card-precios {
+            margin-top: 7px;
+        }
+        .a-card-horarios{
+            margin-top: 70px;
+        }
     }
 }
-.container .card:hover{
+.img-card-horarios{
+    height: 220px !important;
+}
+.card-container .card:hover{
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
-.container {
+.card-container {
     .card{
-        img{
+        .img-card{
             width: 330px;
             height: 220px;
         }
     }
 }
-.container {
+.card-container {
     .card{
         h4{
             font-weight:600 ;
         }
     }
 }
-.container {
+.card-container {
     .card{
         p{
             padding: 0 1rem;
@@ -62,7 +68,7 @@ body{
         }
     }
 }
-.container {
+.card-container {
     .card{
         a{
            font-weight: 500;

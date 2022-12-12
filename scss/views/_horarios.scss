@@ -7,21 +7,21 @@
     align-content: center;
     justify-content: center;
     padding-top: 100px;
-    color: white;
+    color: #FFECD1;
     border-collapse: collapse;
 }
 .th {
-    border: 2px solid white;
+    border: 2px solid #FFECD1;
     flex-direction: column;
     width: 200px;
 }
 .td {
     flex-direction: column;
-    border: 2px solid white;
+    border: 2px solid #FFECD1;
     width: 100px;
 }
 .title-table {
-    color: #F58A07;
+    color: #FF7D00;
     font-size: larger;
     width: 100px;
 }
