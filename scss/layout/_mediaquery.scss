@@ -52,6 +52,29 @@
         margin-top: 40px;
     }
 }
+/* =========== @Media Tablet Inicio =========== */    
+@media  screen and (min-width:500px) and (max-width:1200px){    
+    .carousel-inner{   
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-height: 680px;
+        justify-content: center!important;
+        margin-left: unset!important;
+        .carousel-item{
+            height: auto;     
+        }    
+    }
+    .carousel-control-next-icon{
+        margin-bottom: 0px;
+    }
+    .carousel-control-prev-icon{
+        margin-bottom: 0px;
+    }
+    .h2-actividades{
+        margin-top: 40px;
+    }
+}
 /* =============== @Media Movile Footer ================ */
 @media  screen and (max-width:500px){
     .copyright {
